@@ -17,9 +17,9 @@ export default defineNuxtConfig({
   // pwa
   pwa: {
     manifest: {
-      name: "Nuxt3 PWA",
-      short_name: "Nuxt3 PWA",
-      description: "Testing Nuxt3 PWA",
+      name: "Peanut Says",
+      short_name: "Peanut Says",
+      description: "I'm a slave of Peanut",
       icons: [
         {
           src: "icons/icon_64x64.png",
