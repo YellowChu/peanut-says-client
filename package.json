@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 0.0.0.0",
+    "generate": "nuxt generate",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@vite-pwa/nuxt": "^0.0.5",
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@pinia/nuxt": "^0.4.8",
+    "dotenv": "^16.0.3",
+    "pinia": "^2.0.34",
+    "pinia-plugin-persistedstate": "^3.1.0"
+  }
+}
