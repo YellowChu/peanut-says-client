@@ -13,7 +13,7 @@ import * as dotenv from "dotenv"
 
 console.log(window.location.host)
 
-axios.defaults.baseURL = window.location.host.includes("localhost") ? "http://localhost:8000" : "https://peanut-api.herokuapp.com"
+axios.defaults.baseURL = window.location.host.includes("localhost") ? "http://localhost:8000" : "https://peanut-says-server.herokuapp.com"
 
 const authStore = useAuthStore()
 
