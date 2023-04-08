@@ -50,5 +50,6 @@ export default defineNuxtConfig({
       enabled: true,
       type: "module",
     },
+    // buildExcludes: [/middleware-manifest.json$/]
   },
 });
