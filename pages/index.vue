@@ -1,8 +1,6 @@
 <template>
   <div>
-    Main content
-    <br>
-    <button @click="logout()">Logout</button>
+    Updated 2024
   </div>
 </template>
 
